@@ -1,0 +1,169 @@
+/* 
+    Document   : homepage.css
+    Created on : Sep 21, 2012, 11:23:54 PM
+    Author     : PraveenNK
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+ body 
+{
+ 
+ font-family:arial,sans-serif;
+ background-color:lavender !important; 
+width:95%; 
+
+ 
+} 
+
+div#APPLE 
+{ 
+visibility: visible;
+position: absolute;
+left:62%; 
+margin:0px; 
+top:25%; 
+ 
+}
+div#A 
+{
+visibility: visible;
+    position:absolute; 
+ top:60%; 
+left:27%;
+ }
+  div#B 
+	{
+visibility: visible;            
+position: absolute;
+margin:0px; 
+top: 30%; 
+left:30%; 
+
+ }
+  div#C
+{ 
+visibility: visible;    
+position: absolute; 
+margin:0px; 
+top:82%; 
+left:22%;
+ 
+}
+ div#D 
+ { 
+ visibility: visible;    
+ position: absolute; 
+ left: 65%;
+top:63%; 
+margin:0px; 
+ 
+}
+ div#E 
+ {
+  visibility: visible;   
+  position:absolute; 
+	margin: 0px;
+	top:64%; 
+	left:4%; 
+	
+} 
+div#F 
+{ 
+visibility: visible;    
+position: absolute; 
+left:60%; 
+margin:0px;
+top:86%; 
+ 
+} 
+div#FROG 
+{ 
+visibility: visible;    
+position: absolute;
+left:2%; 
+margin:0px; 
+top:45%; 
+ 
+}
+
+div#BALL 
+{ 
+visibility: visible;    
+position: absolute;
+left:50%; 
+margin:0px; 
+top:86%; 
+ 
+}
+div#CAT 
+{ 
+visibility: visible;    
+position: absolute;
+left:50%; 
+margin:0px; 
+top:50%; 
+ 
+}
+div#DOG 
+{ 
+visibility: visible;    
+position: absolute;
+left:20%; 
+margin:0px; 
+top:25%; 
+ 
+}
+div#ELEPHANT 
+{ 
+visibility: visible;    
+position: absolute;
+left:42%; 
+margin:0px; 
+top:22%; 
+ 
+}
+
+div#answers
+{
+ 
+    background-color:inherit !important;
+    position: absolute;
+    width: 200px;    
+    top: 23%;
+    left: 75%;
+    padding:0px;
+    
+ }                     
+div#day
+{
+ 
+ font-family: sans-serif;
+ color: blue;
+ font-size: 18pt;
+ position: absolute;
+ top: 4%;
+ left: 57%;
+}
+p#today
+
+{
+    position: absolute;
+   top: 25%;
+   left: 5%;
+}
+p#day1
+{
+   position: absolute;
+   top: 25%;
+   left: 40%;
+}
+
+.sp
+{
+    position: absolute;
+   top: 20%;
+   left: 1%;
+}

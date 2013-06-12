@@ -1,0 +1,97 @@
+/* 
+    Document   : framecss
+    Created on : Dec 21, 2012, 12:55:31 AM
+    Author     : praveen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body{
+margin: 0;
+padding: 0;
+border: 0;
+overflow: hidden;
+height: 100%; 
+max-height: 100%; 
+}
+
+#framecontent{
+position: absolute;
+top: 0;
+bottom: 0; 
+left: 0;
+width: 300px; /*Width of frame div*/
+height: 100%;
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background: chocolate;
+color: white;
+}
+
+#maincontent{
+position: fixed;
+top: 30px; 
+left: 350px; /*Set left value to WidthOfFrameDiv*/
+right: 0;
+bottom: 0;
+overflow: auto; 
+text-align: center;
+font-size:14pt;
+}
+
+#list{
+margin:50px;    
+}
+
+table{
+margin: 20px;
+position: absolute;
+left: 500px;
+}
+
+#stmt{    
+margin: 5px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+text-align: justify; 
+font-size: 14pt;
+}
+
+#link1{
+position:fixed;
+top:100px;
+}
+
+#link2{
+position:fixed;
+top:150px;
+}
+
+#link3{
+position:fixed;
+top:200px;
+}
+
+* html body{ 
+padding: 0 0 0 200px; /*Set value to (0 0 0 WidthOfFrameDiv)*/
+}
+
+* html #maincontent{ /*IE6 hack*/
+height: 100%; 
+width: 100%; 
+}
+
+
+/*<script type="text/javascript">
+/*** Temporary text filler function. Remove when deploying template. 
+var gibberish=["This is just some filler text", "Welcome to Dynamic Drive CSS Library", "Demo content nothing to read here"]
+function filltext(words){
+for (var i=0; i<words; i++)
+document.write(gibberish[Math.floor(Math.random()*3)]+" ")
+}
+</script>
+
+</head>
+
+<body>
+*/
+
+

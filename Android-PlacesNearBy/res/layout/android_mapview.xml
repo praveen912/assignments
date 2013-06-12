@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/exitb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/zoomInb"
+        android:text="Exit" />
+
+    <LinearLayout
+        android:id="@+id/mapLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zoomOutb"
+        android:orientation="vertical" >
+
+        <com.google.android.maps.MapView
+            android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_weight="0.96"
+            android:apiKey="xxxxxxxxxxxxxxxxxxxx"
+            android:clickable="true"
+            android:enabled="true" >
+        </com.google.android.maps.MapView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/zoomInb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/exitb"
+        android:layout_alignBottom="@+id/exitb"
+        android:layout_toRightOf="@+id/zoomOutb"
+        android:text="Zoom in" />
+
+    <Button
+        android:id="@+id/zoomOutb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zoomInb"
+        android:layout_alignBottom="@+id/zoomInb"
+        android:layout_alignParentLeft="true"
+        android:text="Zoom out" />
+
+</RelativeLayout>
