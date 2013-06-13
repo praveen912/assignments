@@ -1,0 +1,36 @@
+/* 
+    Document   : Json
+    Created on : Jan 27, 2013, 4:19:58 PM
+    Author     : Praveen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body{
+background-color: lavender;
+text-align: center;
+}
+
+.name
+{
+    background-color: lavenderblush;    
+    text-align: left;
+    
+}
+.txt
+{
+    text-decoration-style: wavy;
+    font-style: oblique;
+    text-align: center;
+}
+
+p.txt
+
+input.name
+
+#egs.name
+{
+    visibility: hidden;
+}
+
